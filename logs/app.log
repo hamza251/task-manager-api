@@ -1,0 +1,86 @@
+[2025-04-20T22:47:44.776541+00:00] slim-app.INFO: Tasks list was viewed. [] {"uid":"b6fbaa2"}
+[2025-04-20T22:47:52.021634+00:00] slim-app.INFO: Tasks list was viewed. [] {"uid":"18b9d04"}
+[2025-04-20T22:48:38.917173+00:00] slim-app.INFO: Tasks list was viewed. [] {"uid":"40eaf72"}
+[2025-04-20T22:48:39.356362+00:00] slim-app.INFO: Tasks list was viewed. [] {"uid":"482d642"}
+[2025-04-20T22:48:39.559889+00:00] slim-app.INFO: Tasks list was viewed. [] {"uid":"2675ac6"}
+[2025-04-20T22:49:06.022431+00:00] slim-app.INFO: Tasks list was viewed. [] {"uid":"7870c35"}
+[2025-04-20T22:49:06.209958+00:00] slim-app.INFO: Tasks list was viewed. [] {"uid":"19ef84e"}
+[2025-04-20T22:49:40.290132+00:00] slim-app.INFO: Tasks list was viewed. [] {"uid":"7865c84"}
+[2025-04-20T22:51:50.961630+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"f3b93f7"}
+[2025-04-20T22:52:43.784772+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"c66a5c6"}
+[2025-04-20T22:52:58.522629+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"264a270"}
+[2025-04-20T22:52:59.713181+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"5892335"}
+[2025-04-20T22:53:03.237008+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"0e3392f"}
+[2025-04-20T22:53:11.909343+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"390e26b"}
+[2025-04-20T22:53:29.556300+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"aedaf50"}
+[2025-04-20T22:59:59.164157+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"62ae9f4"}
+[2025-04-20T23:00:07.057290+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"3239b87"}
+[2025-04-20T23:00:23.774703+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"3292553"}
+[2025-04-20T23:00:28.369574+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"30653af"}
+[2025-04-20T23:00:43.479171+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"f97283f"}
+[2025-04-20T23:00:44.380696+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"1254fc1"}
+[2025-04-20T23:00:45.015665+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"c1f3798"}
+[2025-04-20T23:01:05.248867+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"5375910"}
+[2025-04-20T23:01:14.250381+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"954d36e"}
+[2025-04-20T23:04:59.595463+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"71a6641"}
+[2025-04-20T23:05:06.498631+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"c5e3916"}
+[2025-04-20T23:07:01.070857+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"2261910"}
+[2025-04-20T23:07:55.245913+00:00] slim-app.WARNING: Task creation validation failed {"title":"title must be present","description":"description must be present"} {"uid":"0886feb"}
+[2025-04-20T23:08:03.434271+00:00] slim-app.WARNING: Task creation validation failed {"description":"description must be present"} {"uid":"6705d17"}
+[2025-04-20T23:08:15.410487+00:00] slim-app.INFO: Task `test` [3] was created. [] {"uid":"d75321e"}
+[2025-04-20T23:08:57.203044+00:00] slim-app.INFO: task of id `3` was viewed. [] {"uid":"33dd5ad"}
+[2025-04-20T23:08:57.916829+00:00] slim-app.INFO: task of id `3` was viewed. [] {"uid":"23fc58c"}
+[2025-04-20T23:08:58.255036+00:00] slim-app.INFO: task of id `3` was viewed. [] {"uid":"c8a242c"}
+[2025-04-20T23:08:58.533094+00:00] slim-app.INFO: task of id `3` was viewed. [] {"uid":"c673e4a"}
+[2025-04-20T23:09:30.544511+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"19ed843"}
+[2025-04-20T23:09:34.467059+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"8d6aa65"}
+[2025-04-20T23:09:34.914651+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"7893ad3"}
+[2025-04-20T23:09:35.283353+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"15119ac"}
+[2025-04-20T23:09:35.615129+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"a542271"}
+[2025-04-20T23:09:35.869376+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"39a8b9a"}
+[2025-04-20T23:09:36.135921+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"6a894fd"}
+[2025-04-20T23:09:36.338478+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"f3beb05"}
+[2025-04-20T23:09:36.602219+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"05f1f9a"}
+[2025-04-21T00:59:58.618618+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"5027b3d"}
+[2025-04-21T01:00:05.112002+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"125179d"}
+[2025-04-21T01:00:05.594500+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"2303318"}
+[2025-04-21T01:00:05.769462+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"ebcbfd4"}
+[2025-04-21T01:00:05.866700+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"441e18b"}
+[2025-04-21T01:00:06.106419+00:00] slim-app.INFO: Task of id `3` was viewed. [] {"uid":"5369b68"}
+[2025-04-21T01:02:00.694615+00:00] slim-app.INFO: Task of id `3` was deleted. [] {"uid":"521fbfe"}
+[2025-04-21T01:03:38.070461+00:00] slim-app.INFO: Task of id `2` was deleted. [] {"uid":"e90c617"}
+[2025-04-21T01:03:48.396576+00:00] slim-app.INFO: Tasks list was viewed. [] {"uid":"9ecb4a3"}
+[2025-04-21T01:04:01.570372+00:00] slim-app.INFO: task of id `1` was viewed. [] {"uid":"b9f76b2"}
+[2025-04-21T01:19:06.118832+00:00] slim-app.INFO: Tasks list was viewed (Page: 1, Limit: 15). [] {"uid":"18b62fb"}
+[2025-04-21T01:19:24.783767+00:00] slim-app.INFO: Task `test xyz 1` [4] was created. [] {"uid":"ce52b51"}
+[2025-04-21T01:19:29.174130+00:00] slim-app.INFO: Task `test xyz` [5] was created. [] {"uid":"8ace73f"}
+[2025-04-21T01:19:32.487980+00:00] slim-app.INFO: Task `test xyz 2` [6] was created. [] {"uid":"6f30788"}
+[2025-04-21T01:19:35.326550+00:00] slim-app.INFO: Task `test xyz 3` [7] was created. [] {"uid":"3ceebfe"}
+[2025-04-21T01:19:38.198955+00:00] slim-app.INFO: Task `test xyz 3` [8] was created. [] {"uid":"0c049a9"}
+[2025-04-21T01:19:38.565324+00:00] slim-app.INFO: Task `test xyz 3` [9] was created. [] {"uid":"f5f53b7"}
+[2025-04-21T01:19:38.846327+00:00] slim-app.INFO: Task `test xyz 3` [10] was created. [] {"uid":"607879f"}
+[2025-04-21T01:19:39.074337+00:00] slim-app.INFO: Task `test xyz 3` [11] was created. [] {"uid":"ea9e169"}
+[2025-04-21T01:19:39.309310+00:00] slim-app.INFO: Task `test xyz 3` [12] was created. [] {"uid":"84e43ed"}
+[2025-04-21T01:19:39.481951+00:00] slim-app.INFO: Task `test xyz 3` [13] was created. [] {"uid":"d450373"}
+[2025-04-21T01:19:39.672548+00:00] slim-app.INFO: Task `test xyz 3` [14] was created. [] {"uid":"3e0eb87"}
+[2025-04-21T01:19:39.710722+00:00] slim-app.INFO: Task `test xyz 3` [15] was created. [] {"uid":"e9da688"}
+[2025-04-21T01:19:39.871201+00:00] slim-app.INFO: Task `test xyz 3` [16] was created. [] {"uid":"d6ae9aa"}
+[2025-04-21T01:19:39.963316+00:00] slim-app.INFO: Task `test xyz 3` [17] was created. [] {"uid":"0005c0f"}
+[2025-04-21T01:19:40.121757+00:00] slim-app.INFO: Task `test xyz 3` [18] was created. [] {"uid":"526e491"}
+[2025-04-21T01:19:40.317575+00:00] slim-app.INFO: Task `test xyz 3` [19] was created. [] {"uid":"4390c8a"}
+[2025-04-21T01:19:40.396461+00:00] slim-app.INFO: Task `test xyz 3` [20] was created. [] {"uid":"12f5459"}
+[2025-04-21T01:19:40.585219+00:00] slim-app.INFO: Task `test xyz 3` [21] was created. [] {"uid":"effde77"}
+[2025-04-21T01:19:40.655879+00:00] slim-app.INFO: Task `test xyz 3` [22] was created. [] {"uid":"0805e69"}
+[2025-04-21T01:19:45.231647+00:00] slim-app.INFO: Tasks list was viewed (Page: 1, Limit: 15). [] {"uid":"58596f2"}
+[2025-04-21T01:19:55.388263+00:00] slim-app.INFO: Tasks list was viewed (Page: 2, Limit: 15). [] {"uid":"d1db0e9"}
+[2025-04-21T01:20:03.373367+00:00] slim-app.INFO: Tasks list was viewed (Page: 2, Limit: 15). [] {"uid":"df40ac6"}
+[2025-04-21T01:20:17.932438+00:00] slim-app.INFO: Tasks list was viewed (Page: 1, Limit: 15). [] {"uid":"2e5913e"}
+[2025-04-21T01:20:26.046584+00:00] slim-app.INFO: Tasks list was viewed (Page: 2, Limit: 15). [] {"uid":"7cc1b0e"}
+[2025-04-21T01:20:33.551912+00:00] slim-app.INFO: Tasks list was viewed (Page: 2, Limit: 15). [] {"uid":"1c190b7"}
+[2025-04-21T01:21:00.577934+00:00] slim-app.INFO: Tasks list was viewed (Page: 1, Limit: 15). [] {"uid":"b82246f"}
+[2025-04-21T01:21:01.382963+00:00] slim-app.INFO: Tasks list was viewed (Page: 1, Limit: 15). [] {"uid":"fc5dfb0"}
+[2025-04-21T01:21:12.634813+00:00] slim-app.INFO: Tasks list was viewed (Page: 2, Limit: 15). [] {"uid":"f26fd3a"}
+[2025-04-21T01:21:18.163822+00:00] slim-app.INFO: Tasks list was viewed (Page: 3, Limit: 15). [] {"uid":"4d34811"}
+[2025-04-21T01:21:21.376515+00:00] slim-app.INFO: Tasks list was viewed (Page: 1, Limit: 15). [] {"uid":"3c971cb"}
+[2025-04-21T01:21:30.569033+00:00] slim-app.INFO: Tasks list was viewed (Page: 1, Limit: 50). [] {"uid":"4dc97df"}
+[2025-04-21T01:22:45.767078+00:00] slim-app.INFO: Tasks list was viewed (Page: 1, Limit: 50). [] {"uid":"ff12f81"}

@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  # PHP Application Service
+  app:
+    build:
+      context: .  # Build context is the project root (where docker-compose.yml is)
+      dockerfile: ./docker/app/Dockerfile # Path to the Dockerfile relative to context
+    container_name: taskmanager_app
+    working_dir: /var/www/html # Changed to match volume mount point often used with this image
+    volumes:
+      - ./:/var/www/html # Mount current project directory into the container
+    ports:
+      - "8080:8080" # Expose port 8080 on the host
+    depends_on:
+      - db # Make sure the DB starts before the app (though connection needs retry logic usually)
+    environment:
+      # Read DB connection details from .env file
+      DB_HOST: ${DB_HOST:-db} # Use default 'db' if not set in .env
+      DB_PORT: ${DB_PORT:-5432}
+      DB_DATABASE: ${DB_DATABASE:-tasks_db}
+      DB_USERNAME: ${DB_USERNAME:-postgres}
+      DB_PASSWORD: ${DB_PASSWORD:-secret}
+      # Ensure Nginx listens on the correct port inside the container
+      NGINX_PORT: 8080
+      # Set the web root for Nginx
+      WEB_ROOT: /var/www/html/public
+
+  # PostgreSQL Database Service
+  db:
+    image: postgres:15 # Use a specific version (e.g., 15 or latest)
+    container_name: taskmanager_db # Renamed for clarity
+    restart: always
+    environment:
+      # These set up the initial DB user and database when the container first starts
+      POSTGRES_DB: ${DB_DATABASE:-tasks_db}
+      POSTGRES_USER: ${DB_USERNAME:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-secret}
+    volumes:
+      - pgdata:/var/lib/postgresql/data # Persist database data using a named volume
+      - ./database/migrations/create-tasks-table.sql:/docker-entrypoint-initdb.d/01_schema.sql
+      - ./database/seeders/seed-tasks.sql:/docker-entrypoint-initdb.d/02_seeds.sql
+    # Optional: Map port if you want to connect from your host machine directly
+    ports:
+      - "5432:5432"
+
+volumes:
+  pgdata: # Define the named volume for persistence
