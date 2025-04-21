@@ -15,39 +15,7 @@ use Slim\App;
 use Slim\Interfaces\RouteCollectorProxyInterface as Group;
 
 return function (App $app) {
-    $app->options('/{routes:.*}', function (Request $request, Response $response) {
-        // CORS Pre-Flight OPTIONS Request Handler
-        return $response;
-    });
-
-    $app->get('/', function (Request $request, Response $response) {
-        $response->getBody()->write('Hello world!');
-        return $response;
-    });
-
-    $app->group('/users', function (Group $group) {
-        $group->get('', ListUsersAction::class);
-        $group->get('/{id}', ViewUserAction::class);
-    });
-
-    $app->get('/db-test', function (Request $request, Response $response) {
-        try {
-            $pdo = $this->get(PDO::class); // Get PDO from container
-            $stmt = $pdo->query('SELECT version()');
-            $version = $stmt->fetchColumn();
-
-            $stmt = $pdo->query('SELECT COUNT(*) FROM tasks'); // Check tasks table
-            $count = $stmt->fetchColumn();
-
-            $payload = json_encode(['db_version' => $version, 'task_count' => $count]);
-            $response->getBody()->write($payload);
-            return $response->withHeader('Content-Type', 'application/json');
-        } catch (\PDOException $e) {
-            $response->getBody()->write(json_encode(['error' => 'DB Connection Failed: ' . $e->getMessage()]));
-            return $response->withStatus(500)->withHeader('Content-Type', 'application/json');
-        }
-    });
-
+   
      // --- Task API Routes ---
      $app->group('/tasks', function (Group $group) {
         $group->get('', ListTasksAction::class);          // GET /tasks
